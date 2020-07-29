@@ -1,0 +1,14 @@
+.welcome {
+  margin-top: 75px !important;
+  font-size: 38pt;
+  text-align: center !important;
+  color: rgba(0, 0, 0, 0.795) !important;
+}
+
+.introduction {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 18pt;
+  color: rgba(102, 102, 102, 0.795) !important;
+  text-align: center !important;
+}

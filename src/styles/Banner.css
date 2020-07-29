@@ -1,0 +1,70 @@
+#jenna {
+  padding-top: 10px !important;
+  padding-bottom: -100px !important;
+}
+
+.button {
+  background-color: white !important;
+  font-family: OpenSans;
+  font-size: 15px !important;
+  padding-bottom: 10px !important;
+}
+
+.banner {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-bottom: solid rgb(226, 226, 226);
+  border-width: 1 3px;
+}
+
+#banner {
+  padding-top: 50px;
+}
+#topnav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ico {
+  padding-left: 20px;
+  padding-top: 18px;
+  color: grey;
+  font-size: 35px;
+  position: absolute;
+  right: 12px;
+  display: none;
+}
+.ico:hover {
+  color: rgb(36, 35, 35) !important;
+}
+
+@media screen and (max-width: 815px) {
+  #topnav {
+    display: none;
+  }
+  .banner {
+    margin-top: -50px !important;
+    border-bottom: 0px solid rgb(226, 226, 226) !important;
+  }
+
+  .banner .ico {
+    display: block;
+  }
+  .topnav.responsive {
+    display: block !important;
+    margin: 67.42px 0 -135px -130px;
+    padding-bottom: 130px;
+  }
+
+  .button.ui.button {
+    margin: 0;
+    margin-left: 65px;
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    border-radius: 0;
+  }
+
+  .banner {
+    border-bottom: 2px solid rgb(226, 226, 226);
+  }
+}

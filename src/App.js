@@ -1,26 +1,31 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+//component imports
+import Homepage from "./components/Homepage";
+import Banner from "../src/components/Banner";
+import Projects from "../src/components/Projects";
+import AboutMe from "../src/components/AboutMe";
+import ContactMe from "../src/components/ContactMe";
+
+//firebase imports
+
+//react + css
+
+//router
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Banner></Banner>
+      <Switch>
+        <Route path="/" exact component={Homepage} />
+        <Route path="/projects" exact component={Projects} />
+        <Route path="/contactme" exact component={ContactMe} />
+        <Route path="/aboutme" exact component={AboutMe} />
+      </Switch>
+    </Router>
   );
-}
+};
 
 export default App;
