@@ -59,7 +59,7 @@ const Banner = () => {
             class="ui button"
             onClick={() => (window.location.href = "/contactme")}
           >
-            xwx contact me
+            contact me
           </button>
         </div>
         <div id="si">

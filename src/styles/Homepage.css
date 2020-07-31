@@ -1,6 +1,6 @@
 .welcome {
   margin-top: 75px !important;
-  font-size: 38pt;
+  font-size: 36pt !important;
   text-align: center !important;
   color: rgba(0, 0, 0, 0.795) !important;
 }
@@ -8,7 +8,18 @@
 .introduction {
   margin-left: 50px;
   margin-right: 50px;
-  font-size: 18pt;
+  font-size: 16pt;
   color: rgba(102, 102, 102, 0.795) !important;
   text-align: center !important;
+}
+
+
+@media screen and (max-width: 815px) {
+.welcome{
+  font-size: 20pt;
+}
+.introduction{
+  font-size: 12pt;
+
+}
 }
