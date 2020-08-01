@@ -5,9 +5,13 @@
   color: rgba(0, 0, 0, 0.795) !important;
 }
 
-#main-grid {
+#outer {
 }
 
 #container {
-  background-color: purple;
+  width: 102%;
+}
+
+.card {
+  width: 300px !important;
 }

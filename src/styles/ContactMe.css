@@ -12,7 +12,14 @@
   color: rgba(102, 102, 102, 0.795) !important;
   text-align: center !important;
 }
-
+#icons {
+  text-align: center !important;
+  font-size: 30px;
+  color: rgb(99, 209, 212);
+}
+.i {
+  padding: 50px;
+}
 @media screen and (max-width: 815px) {
   .welcome {
     font-size: 20pt;

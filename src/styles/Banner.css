@@ -24,7 +24,9 @@
   display: flex;
   justify-content: space-between;
 }
-
+#si {
+  color: rgb(99, 209, 212);
+}
 .ico {
   padding-left: 20px;
   padding-top: 18px;
@@ -33,9 +35,6 @@
   position: absolute;
   right: 12px;
   display: none;
-}
-.ico:hover {
-  color: rgb(36, 35, 35) !important;
 }
 
 @media screen and (max-width: 815px) {
