@@ -26,7 +26,7 @@ const Projects = () => (
             <Card.Content>
               <Card.Header>Project name</Card.Header>
               <Card.Meta>date</Card.Meta>
-              <Card.Description>brief description </Card.Description>
+              <Card.Description> description </Card.Description>
             </Card.Content>
             <Card.Content extra>
               <a>boxes with skills</a>
