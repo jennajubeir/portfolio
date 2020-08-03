@@ -12,12 +12,41 @@
   color: rgba(102, 102, 102, 0.795) !important;
   text-align: center !important;
 }
+.card {
+  height: 200px !important;
+  padding: 10px !important;
+  display: flex;
+  background-color: rgb(226, 226, 226);
+  justify-content: center;
+  align-items: center;
+}
+.card:hover {
+  background-color: rgb(99, 209, 212);
+  opacity: 0.75;
+  text-decoration-color: white;
+}
 
-@media screen and (max-width: 815px) {
+.desc {
+  display: inline-block !important;
+  color: grey;
+  font-size: 18px !important;
+}
+#container {
+  width: 101% !important;
+}
+#outer {
+  padding-top: 80px;
+  width: 90%;
+}
+
+@media screen and (max-width: 900px) {
   .welcome {
     font-size: 20pt;
   }
   .introduction {
     font-size: 12pt;
+  }
+  .desc {
+    font-size: 12px !important;
   }
 }

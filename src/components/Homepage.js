@@ -31,36 +31,24 @@ const Homepage = () => {
       <div class="ui center aligned container" id="outer">
         <Grid centered id="container">
           <Grid.Column className="column" mobile={16} tablet={8} computer={4}>
-            <Card className="card">
-              <Image src={ex} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>Check out my projects</Card.Header>
-              </Card.Content>
-            </Card>
+            <div className="card">
+              <h1 className="desc">check out my projects</h1>
+            </div>
           </Grid.Column>
           <Grid.Column className="column" mobile={16} tablet={8} computer={4}>
-            <Card className="card">
-              <Image src={ex} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>Take a look at my resume</Card.Header>
-              </Card.Content>
-            </Card>
+            <div className="card">
+              <h1 className="desc">take a look at my resume</h1>
+            </div>
           </Grid.Column>
           <Grid.Column className="column" mobile={16} tablet={8} computer={4}>
-            <Card className="card">
-              <Image src={ex} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>Learn more about me</Card.Header>
-              </Card.Content>
-            </Card>
+            <div className="card">
+              <h1 className="desc">learn more about me</h1>
+            </div>
           </Grid.Column>
           <Grid.Column className="column" mobile={16} tablet={8} computer={4}>
-            <Card className="card">
-              <Image src={ex} wrapped ui={false} />
-              <Card.Content>
-                <Card.Header>Contact me</Card.Header>
-              </Card.Content>
-            </Card>
+            <div className="card">
+              <h1 className="desc">contact me</h1>
+            </div>
           </Grid.Column>
         </Grid>
       </div>
