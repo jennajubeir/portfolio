@@ -18,7 +18,6 @@ import {
   Image,
 } from "semantic-ui-react";
 import "../styles/Homepage.css";
-import ex from "../ex.jpg";
 
 const Homepage = () => {
   return (

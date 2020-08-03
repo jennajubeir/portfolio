@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "semantic-ui-css/semantic.min.css";
 import "../styles/Banner.css";
-import jenna from "../Jenna.png";
 import {
   Container,
   Search,
@@ -12,8 +11,6 @@ import {
   Button,
   Icon,
 } from "semantic-ui-react";
-import { Link } from "react-router-dom";
-import { SocialIcon } from "react-social-icons";
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
 const Banner = () => {
