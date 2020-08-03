@@ -21,10 +21,11 @@
   justify-content: center;
   align-items: center;
 }
+
 .card:hover {
-  background-color: rgb(99, 209, 212);
+  background-color: rgb(99, 209, 212) !important;
   opacity: 0.75;
-  text-decoration-color: white;
+  color: white !important;
 }
 
 .desc {
@@ -34,15 +35,20 @@
   margin: 20px !important;
   font-size: 18px !important;
 }
-#container {
-  width: 101% !important;
-}
 #outer {
-  padding-top: 80px;
-  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50vh;
+  align-items: center;
+  justify-items: center; /* adjusted */
 }
 
 @media screen and (max-width: 900px) {
+  #outer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 35vh 35vh 35vh 35vh;
+    height: 200%;
+  }
   .welcome {
     font-size: 20pt;
   }
