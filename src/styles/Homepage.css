@@ -23,9 +23,9 @@
 }
 
 .card:hover {
-  background-color: rgb(99, 209, 212) !important;
-  opacity: 0.75;
+  border: 3px solid rgb(99, 209, 212) !important;
   color: white !important;
+  opacity: 1.5x;
 }
 
 .desc {
