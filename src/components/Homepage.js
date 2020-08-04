@@ -37,10 +37,6 @@ const Homepage = () => {
         <Button className="card">
           <h1 className="desc">learn more about me</h1>
         </Button>
-
-        <Button className="card">
-          <h1 className="desc">contact me</h1>
-        </Button>
       </div>
     </div>
   );

@@ -13,13 +13,12 @@
   text-align: center !important;
 }
 .card {
-  height: 200px !important;
-  padding: 10px !important;
-  width: 300px !important;
+  height: 100px !important;
   display: flex;
   background-color: rgb(226, 226, 226);
   justify-content: center;
   align-items: center;
+  margin: 10px !important;
 }
 
 .card:hover {
@@ -31,23 +30,29 @@
 .desc {
   display: inline-block !important;
   color: grey;
-  padding: 0px !important;
-  margin: 20px !important;
-  font-size: 18px !important;
+  font-size: 16px !important;
+  width: 170px !important;
 }
 #outer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50vh;
-  align-items: center;
-  justify-items: center; /* adjusted */
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center !important;
 }
 
 @media screen and (max-width: 900px) {
   #outer {
+    display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 35vh 35vh 35vh 35vh;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
     height: 200%;
+    align-items: center;
+    justify-items: center; /* adjusted */
+  }
+  .card {
+    padding: 0 !important;
+    width: 200px !important;
+    margin: 0px !important;
   }
   .welcome {
     font-size: 20pt;
