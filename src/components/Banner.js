@@ -1,16 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "semantic-ui-css/semantic.min.css";
 import "../styles/Banner.css";
-import {
-  Container,
-  Search,
-  Grid,
-  Header,
-  Segment,
-  Row,
-  Button,
-  Icon,
-} from "semantic-ui-react";
+import { Icon } from "semantic-ui-react";
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 
 const Banner = () => {
