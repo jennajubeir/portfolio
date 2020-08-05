@@ -87,6 +87,15 @@ const Projects = () => (
         <h1 className="pdesc">DTC PROJECT</h1>
       </Button>
     </div>
+    <div class="ui center aligned container" id="pouter">
+      <Button
+        className="pcard"
+        onClick={() => (window.location.href = "/aboutme")}
+      >
+        <img class="ui centered small image" src={sw}></img>
+        <h1 className="pdesc">BACKTRACK</h1>
+      </Button>
+    </div>
   </div>
 );
 
