@@ -9,6 +9,58 @@
   width: 102%;
 }
 
-.card {
+.pcard {
+  height: 300px !important;
   width: 300px !important;
+  display: flex;
+  background-color: rgb(226, 226, 226);
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px !important;
+}
+
+.pcard:hover {
+  border: 3px solid rgb(99, 209, 212) !important;
+  color: white !important;
+  opacity: 1.5x;
+}
+.pdesc {
+  display: inline-block !important;
+  color: grey;
+  font-size: 20px !important;
+  width: 170px !important;
+}
+.sdesc {
+  font-size: 16px !important;
+  margin-top: 0px !important;
+}
+#tp {
+  align-self: center;
+  background-color: yellow;
+}
+#pouter {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center !important;
+}
+@media screen and (max-width: 900px) {
+  #pouter {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30vh 30vh 30vh 30vh;
+    height: 200%;
+    align-items: center;
+    justify-items: center; /* adjusted */
+  }
+  .pcard {
+    padding: 10 !important;
+    width: 200px !important;
+    margin: 0px !important;
+  }
+
+  .pdesc {
+    font-size: 16px !important;
+  }
 }
