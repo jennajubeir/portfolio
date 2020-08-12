@@ -1,0 +1,50 @@
+#aouter {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center !important;
+}
+
+.am {
+  display: inline-block !important;
+  color: grey;
+  padding: 30px;
+  margin: 30px;
+  font-size: 20px !important;
+  width: 100% !important;
+  align-self: flex-start;
+}
+
+#me {
+  margin: 30px;
+}
+
+.welcome {
+  margin-top: 75px !important;
+  font-size: 34pt !important;
+  text-align: center !important;
+  color: rgba(0, 0, 0, 0.795) !important;
+}
+
+.introduction {
+  background-color: yellow;
+  font-size: 16pt;
+  color: rgba(102, 102, 102, 0.795) !important;
+}
+
+@media screen and (max-width: 900px) {
+  #aouter {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30vh 85vh;
+    height: 400%; /* adjusted */
+    justify-items: center;
+  }
+  #me {
+    margin: 100px !important;
+  }
+
+  .am {
+    font-size: 16px !important;
+  }
+}
